@@ -8,7 +8,7 @@ import { useHistory } from 'react-router-dom';
 const OfferPromo = ({offer, isBestOffer}) => {
 	const history = useHistory();
 	const openOffer = (offerId) => {
-		history.push(`/offer/${offerId}`);
+		history.push(`${process.env.PUBLIC_URL}/offer/${offerId}`);
 	};
 
 	return (

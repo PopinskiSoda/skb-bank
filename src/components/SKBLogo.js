@@ -10,7 +10,7 @@ const SKBLogo = () => {
 	const isRoot = () => (pathname === '/');
 	const handleClick = () => {
 		if (!isRoot()) {
-			history.push('/');
+			history.push(`${process.env.PUBLIC_URL}/`);
 		}
 	}
 

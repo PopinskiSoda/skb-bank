@@ -10,7 +10,7 @@ import './OfferPage/OfferPage.scss';
 const OfferPage = () => {
 	const history = useHistory();
 	const navigateToHomepage = () => {
-		history.push('/');
+		history.push(`${process.env.PUBLIC_URL}/`);
 	}
 
 	return (

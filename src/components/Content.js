@@ -12,13 +12,13 @@ const Content = () => {
   	<div className="Content">
       <div className="Content__wrapper">
     		<Switch>
-          <Route exact path="/">
+          <Route exact path={`${process.env.PUBLIC_URL}/`}>
             <OfferPromoPage />
           </Route>
-          <Route path="/page/:pageId">
+          <Route path={`${process.env.PUBLIC_URL}/page/:pageId`}>
             <OfferPromoPage />
           </Route>
-          <Route path="/offer/:offerId">
+          <Route path={`${process.env.PUBLIC_URL}/offer/:offerId`}>
             <OfferPage />
           </Route>
         </Switch>

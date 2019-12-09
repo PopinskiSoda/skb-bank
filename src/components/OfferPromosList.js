@@ -20,7 +20,7 @@ const OfferPromosList = () => {
 		} else {
 			newPageId = pageId - 1;
 		}
-		history.push(`/page/${newPageId}`);
+		history.push(`${process.env.PUBLIC_URL}/page/${newPageId}`);
 	}
 
 	const sortedOffers = offers.sort((offer1, offer2) => (offer1.priority - offer2.priority))

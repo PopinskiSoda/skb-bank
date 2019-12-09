@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/skb-bank/static/css/main.c4e51364.chunk.css",
-    "main.js": "/skb-bank/static/js/main.ecb7e9f1.chunk.js",
-    "main.js.map": "/skb-bank/static/js/main.ecb7e9f1.chunk.js.map",
+    "main.js": "/skb-bank/static/js/main.d413bc31.chunk.js",
+    "main.js.map": "/skb-bank/static/js/main.d413bc31.chunk.js.map",
     "runtime-main.js": "/skb-bank/static/js/runtime-main.d8960b20.js",
     "runtime-main.js.map": "/skb-bank/static/js/runtime-main.d8960b20.js.map",
     "static/js/2.e5ac2514.chunk.js": "/skb-bank/static/js/2.e5ac2514.chunk.js",
     "static/js/2.e5ac2514.chunk.js.map": "/skb-bank/static/js/2.e5ac2514.chunk.js.map",
     "index.html": "/skb-bank/index.html",
-    "precache-manifest.4c9a75fe80b1fc6994628df2bb969e10.js": "/skb-bank/precache-manifest.4c9a75fe80b1fc6994628df2bb969e10.js",
+    "precache-manifest.abff985056629f8590bb8678b848af05.js": "/skb-bank/precache-manifest.abff985056629f8590bb8678b848af05.js",
     "service-worker.js": "/skb-bank/service-worker.js",
     "static/css/main.c4e51364.chunk.css.map": "/skb-bank/static/css/main.c4e51364.chunk.css.map",
     "static/media/PhoneNumber.scss": "/skb-bank/static/media/Formular.b970ba71.woff",
@@ -26,6 +26,6 @@
     "static/js/runtime-main.d8960b20.js",
     "static/js/2.e5ac2514.chunk.js",
     "static/css/main.c4e51364.chunk.css",
-    "static/js/main.ecb7e9f1.chunk.js"
+    "static/js/main.d413bc31.chunk.js"
   ]
 }

@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e74cbcd42d4978bf2cf021e931426166",
+    "revision": "94ef77ddd541de241738c4c0fabbc58e",
     "url": "/skb-bank/index.html"
   },
   {
-    "revision": "65917c32854beb095f4e",
+    "revision": "c42c2be3268c6230ebb4",
     "url": "/skb-bank/static/css/main.c4e51364.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/skb-bank/static/js/2.e5ac2514.chunk.js"
   },
   {
-    "revision": "65917c32854beb095f4e",
-    "url": "/skb-bank/static/js/main.ecb7e9f1.chunk.js"
+    "revision": "c42c2be3268c6230ebb4",
+    "url": "/skb-bank/static/js/main.d413bc31.chunk.js"
   },
   {
     "revision": "9a1800295ecb9cf731fe",

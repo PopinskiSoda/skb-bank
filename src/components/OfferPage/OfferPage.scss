@@ -1,0 +1,62 @@
+.OfferPage {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 851px;
+	margin-top: 53px;
+	position: relative;
+
+	&__header {
+		font-family: Formular;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 36px;
+		margin-top: 23px;
+		margin-bottom: 16px;
+	}
+
+	&__note {
+		font-family: Gilroy;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 18px;
+		margin-bottom: 48px;
+	}
+
+	&__subtitle {
+		font-family: Formular;
+		font-style: normal;
+		font-weight: 500;
+		font-size: 18px;
+		margin-bottom: 17px;
+	}
+
+	&__bottom-section {
+		display: flex;
+		width: 100%;
+		margin-bottom: 75px;
+	}
+
+	&__icons-group {
+		display: flex;
+	}
+
+	&__navigation {
+		display: flex;
+		width: 100%;
+		justify-content: flex-start;
+		margin-bottom: 61px;
+	}
+
+	&__triangle {
+		position: absolute;
+		top: -53px;
+		left: 679px;
+	}
+
+	&__image {
+		position: absolute;
+		top: 77px;
+		left: 973px;
+	}
+}

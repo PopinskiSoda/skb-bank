@@ -1,0 +1,27 @@
+@import '../../constants/fontfaceGilroy.scss';
+
+.Icon {
+	display: flex;
+	align-items: center;
+
+	&__caption {
+		display: inline-block;
+		font-family: Gilroy;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16px;
+		height: 100%;
+		margin-left: 11px;
+		margin-right: 55px;
+	}
+
+	&__wrapper {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 73px;
+		height: 73px;
+		border-radius: 50%;
+		background: linear-gradient(111.57deg, #038C73 46.78%, #6CC47B 97.01%);
+	}
+}

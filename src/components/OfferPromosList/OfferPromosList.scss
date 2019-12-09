@@ -1,0 +1,12 @@
+.OfferPromosList {
+	display: flex;
+	flex-direction: column;
+	width: 550px;
+
+	&__navigation {
+		display: flex;
+		justify-content: space-between;
+		width: 100%;
+		margin-bottom: 79px;
+	}
+}

@@ -1,0 +1,13 @@
+.Content {
+	flex: auto;
+	background: url(../../images/bg.png);
+	background-size:cover;
+	padding: 0 16px;
+	overflow: hidden;
+
+	&__wrapper {
+		height: 100%;
+		margin: auto;
+		max-width: 1110px;
+	}
+}

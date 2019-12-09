@@ -1,0 +1,69 @@
+@import '../../constants/colors';
+
+$block: 'Button';
+
+.#{$block} {
+	display: inline-block;
+	background: $coral;
+	border-radius: 60px;
+	cursor: pointer;
+	font-family: Formular;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	color: $white;
+	padding: 20px 0;
+    user-select: none;
+	opacity: 1;
+	text-align: center;
+	min-width: 215px;
+	max-width: 294px;
+
+    &:hover:not(.#{$block}--disabled) {
+    	opacity: 0.8;
+    	transition: opacity 0.5s ease-in;
+    }
+
+    &--smallPadding {
+    	padding: 11px 0;
+    }
+
+    &--mediumPadding {
+    	padding: 16px 0;
+    }
+
+    &--gilroy {
+    	font-family: Gilroy;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 18px;
+		padding-left: 30px;
+		padding-right: 30px;
+    }
+
+	&--light {
+		min-width: 211px;
+		max-width: 290px;
+		padding: 18px 0;
+		background-color: $alabaster;
+		border: 2px solid $coral;
+		color: $coral;
+
+		&:hover:not(.#{$block}--disabled) {
+			opacity: 1;
+			background-color: $coral;
+			color: $white;
+			transition: all 0.5s ease-in;
+		}
+
+		&.#{$block}--smallPadding {
+			padding: 9px 0;
+		}
+
+		&.#{$block}--disabled {
+			border: 2px solid $grey;
+			color: $grey;
+			cursor: default;
+		}
+	}
+}

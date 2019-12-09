@@ -1,0 +1,63 @@
+@import '../../constants/colors.scss';
+
+.OfferCard {
+	width: 100%;
+	box-sizing: border-box;
+	background: #FFFFFF;
+	box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.15);
+	border-radius: 15px;
+	padding: 38px 59px 34px;
+	margin-bottom: 58px;
+
+	&__header, &__limit, &__column-value {
+		font-family: Formular;
+		font-style: normal;
+		font-weight: 500;
+		color: black;
+	}
+
+	&__note, &__column-label {
+		font-family: Gilroy;
+		font-style: normal;
+		font-weight: normal;
+		color: $silver;
+	}
+
+	&__header {
+		font-size: 24px;
+		margin-bottom: 17px;
+	}
+
+	&__content {
+		display: flex;
+	}
+
+	&__limit {
+		font-size: 36px;
+		line-height: 36px;
+		margin-right: 107px;
+		white-space: nowrap;
+	}
+
+	&__columns {
+		display: flex;
+	}
+
+	&__column {
+		margin-right: 51px;
+	}
+
+	&__column-value {
+		font-size: 18px;
+		margin-bottom: 6px;
+		white-space: nowrap;
+	}
+
+	&__column-label {
+		font-size: 16px;
+	}
+
+	&__note {
+		font-size: 14px;
+	}
+}

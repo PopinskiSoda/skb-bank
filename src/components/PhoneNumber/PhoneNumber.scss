@@ -1,0 +1,24 @@
+@import '../../constants/colors.scss';
+@import '../../constants/fontfaceFormular.scss';
+
+.PhoneNumber {
+	font-family: Formular;
+	font-style: normal;
+	color: $black;
+	text-align: left;
+
+	&__number {
+		font-weight: 500;
+		font-size: 28px;
+	}
+
+	&__label {
+		font-style: normal;
+		font-weight: normal;
+		font-size: 13px;
+	}
+
+	&--light {
+		color: $white;
+	}
+}

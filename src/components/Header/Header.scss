@@ -1,0 +1,17 @@
+@import '../../constants/colors.scss';
+
+.Header {
+	padding: 0 16px;
+	height: 100px;
+	background: $white;
+	border-bottom: 1px solid $cararra;
+
+	&__content {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		height: 100%;
+		margin: auto;
+		max-width: 1110px;
+	}
+}

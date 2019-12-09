@@ -1,0 +1,68 @@
+@import '../../constants/colors';
+
+.OfferPromo {
+	font-family: Formular;
+	font-style: normal;
+	font-weight: normal;
+	width: 100%;
+	box-sizing: border-box;
+	background: $white;
+	box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.1);
+	border-radius: 5px;
+	padding: 18px 40px 40px;
+	margin-bottom: 40px;
+
+	&:last-child {
+		margin-bottom: 53px;
+	}
+
+	&__tag {
+		width: 202px;
+		height: 21px;
+		line-height: 21px;
+		text-align: center;
+		vertical-align: middle;
+		font-family: Formular;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 12px;
+		border-radius: 3px;
+		background-color: $moonmist;
+		color: $bitter;
+		margin-bottom: 9px;
+
+		&--is-best-offer {
+			background: linear-gradient(165.27deg, #038C73 46.78%, #6CC47B 97.01%);
+			color: $white;
+		}
+	}
+
+	&__header {
+		font-size: 25px;
+		margin-bottom: 6px;
+
+		&--consumer-credit {
+			max-width: 320px;
+		}
+	}
+
+	&__note {
+		font-size: 18px;
+		margin-bottom: 26px;
+	}
+
+	&__line {
+		font-size: 18px;
+		margin-bottom: 12px;
+
+		&--last {
+			margin-bottom: 27px;
+		}
+	}
+
+	&__label {
+		display: inline-block;
+		width: 253px;
+		color: $grey;
+	}
+}

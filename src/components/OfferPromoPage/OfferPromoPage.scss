@@ -1,0 +1,40 @@
+@import '../../constants/colors.scss';
+
+.OfferPromoPage {
+	margin-top: 138px;
+	position: relative;
+
+	&__header {
+		margin-bottom: 75px;
+	}
+
+	&__appeal {
+		font-family: Formular;
+		font-style: normal;
+		font-weight: 500;
+		font-size: 50px;
+		color: $observatory;
+		margin-bottom: 24px;
+	}
+
+	&__note {
+		font-family: Formular;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 18px;
+		width: 572px;
+		line-height: 165%;
+		margin-bottom: 22px;
+
+		&--faded {
+			font-size: 15px;
+			color: $grey;
+		}
+	}
+
+	&__image {
+		position: absolute;
+		bottom: 0;
+		left: 640px;
+	}
+}

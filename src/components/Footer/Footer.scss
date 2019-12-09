@@ -1,0 +1,42 @@
+@import '../../constants/colors.scss';
+
+.Footer {
+	padding: 0 16px;
+	height: 129px;
+	background: linear-gradient(170.36deg, #038C73 46.78%, #6CC47B 97.01%);
+
+	&__content {
+		display: flex;
+		align-items: center;
+		// justify-content: space-between;
+		height: 100%;
+		margin: auto;
+		max-width: 1110px;
+	}
+
+	&__note {
+		font-family: Formular;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 11px;
+		line-height: 19px;
+		color: rgba(255, 255, 255, 0.5);
+		width: 280px;
+		margin-right: 125px;
+	}
+
+	&__link {
+		height: 58px;
+		font-family: Formular;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 13px;
+		color: $white;
+		cursor: default;
+	}
+
+	&__phone-wrapper {
+		height: 62px;
+		margin-left: auto;
+	}
+}

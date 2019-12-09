@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/skb-bank/static/css/main.c4e51364.chunk.css",
+    "main.js": "/skb-bank/static/js/main.8d96eb6a.chunk.js",
+    "main.js.map": "/skb-bank/static/js/main.8d96eb6a.chunk.js.map",
+    "runtime-main.js": "/skb-bank/static/js/runtime-main.d8960b20.js",
+    "runtime-main.js.map": "/skb-bank/static/js/runtime-main.d8960b20.js.map",
+    "static/js/2.e5ac2514.chunk.js": "/skb-bank/static/js/2.e5ac2514.chunk.js",
+    "static/js/2.e5ac2514.chunk.js.map": "/skb-bank/static/js/2.e5ac2514.chunk.js.map",
+    "index.html": "/skb-bank/index.html",
+    "precache-manifest.986f499f7fea99a2de428891f9a0fe1a.js": "/skb-bank/precache-manifest.986f499f7fea99a2de428891f9a0fe1a.js",
+    "service-worker.js": "/skb-bank/service-worker.js",
+    "static/css/main.c4e51364.chunk.css.map": "/skb-bank/static/css/main.c4e51364.chunk.css.map",
+    "static/media/PhoneNumber.scss": "/skb-bank/static/media/Formular.b970ba71.woff",
+    "static/media/Icon.scss": "/skb-bank/static/media/Gilroy-UltraLightItalic.f07d7e71.woff",
+    "static/media/Content.scss": "/skb-bank/static/media/bg.6e50566a.png",
+    "static/media/map_marker.7c669a0b.svg": "/skb-bank/static/media/map_marker.7c669a0b.svg",
+    "static/media/passport.8e2b32ad.svg": "/skb-bank/static/media/passport.8e2b32ad.svg",
+    "static/media/popov.png": "/skb-bank/static/media/popov.fbe75ceb.png",
+    "static/media/reference.aaafc409.svg": "/skb-bank/static/media/reference.aaafc409.svg",
+    "static/media/skb_logo.d22e42b6.svg": "/skb-bank/static/media/skb_logo.d22e42b6.svg",
+    "static/media/success.949b4028.svg": "/skb-bank/static/media/success.949b4028.svg",
+    "static/media/triangle.svg": "/skb-bank/static/media/triangle.f2272622.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d8960b20.js",
+    "static/js/2.e5ac2514.chunk.js",
+    "static/css/main.c4e51364.chunk.css",
+    "static/js/main.8d96eb6a.chunk.js"
+  ]
+}

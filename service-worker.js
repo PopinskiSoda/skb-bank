@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/skb-bank/precache-manifest.986f499f7fea99a2de428891f9a0fe1a.js"
+  "/skb-bank/precache-manifest.4c9a75fe80b1fc6994628df2bb969e10.js"
 );
 
 self.addEventListener('message', (event) => {
